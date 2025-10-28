@@ -1,0 +1,17 @@
+{
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "your-email@gmail.com",
+        "sender_password": "your-app-password",
+        "use_tls": true,
+        "recipient_email": "taranezy@gmail.com"
+    },
+    "monitoring": {
+        "target_host": "www.b92.net",
+        "check_interval_seconds": 30,
+        "latency_threshold_ms": 1000.0,
+        "failure_threshold": 3,
+        "log_file": "log.txt"
+    }
+}

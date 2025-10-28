@@ -1,0 +1,12 @@
+# Network Tester - Requirements
+# Install with: pip install -r requirements.txt
+
+# No external dependencies required for basic functionality
+# Python standard library is sufficient for ping, logging, and email
+
+# For system tray GUI version
+pystray>=0.19.0
+Pillow>=10.0.0
+
+# Optional: For building executable
+pyinstaller>=5.0.0
