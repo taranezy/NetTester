@@ -445,6 +445,7 @@ class SettingsWindow:
             messagebox.showerror("Invalid Input", f"Please check your input:\n{e}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to test email:\n{e}")
+
     
     def show(self):
         """Show the settings window."""
